@@ -1,0 +1,27 @@
+{
+  "name": "safe-dye",
+  "version": "1.0.0",
+  "description": "Check color similarity in a color-blind safe way",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "color-convert": "^1.9.0",
+    "delta-e": "^0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha src/**/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablamunits/safe-dye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ablamunits/safe-dye/issues"
+  },
+  "homepage": "https://github.com/ablamunits/safe-dye#readme"
+}
