@@ -19,7 +19,7 @@ npm install safe-dye
 After requiring, use any of the available validation functions on a set of 2 colors in HEX, i.e `#00A55A`.
 The function will return `true` if the colors are distinguishable or `false` otherwise.
 
-```
+```js
 const SafeDye = require('safe-dye');
 
 // Will return true if color1 and color2 are distinguishable for red-green type color blindness (Protanopia)
