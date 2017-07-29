@@ -2,7 +2,7 @@
   "name": "safe-dye",
   "version": "1.0.0",
   "description": "Check color similarity in a color-blind safe way",
-  "main": "index.js",
+  "main": "src/safe-dye.js",
   "dependencies": {
     "chai": "^3.5.0",
     "color-convert": "^1.9.0",
