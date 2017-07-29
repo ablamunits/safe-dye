@@ -1,6 +1,6 @@
 {
   "name": "safe-dye",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check color similarity in a color-blind safe way",
   "main": "src/safe-dye.js",
   "dependencies": {
