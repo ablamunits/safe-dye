@@ -46,5 +46,4 @@ This library uses [color-blind](https://github.com/skratchdot/color-blind) and [
 ## References
 
 1. [About the DeltaE algorithm](http://zschuessler.github.io/DeltaE/learn/)
-2. [Color Palettes For Color Blindness](http://mkweb.bcgsc.ca/colorblind/)
-3. More about color blindness
+2. [Designing Colorblind Friendly Websites](https://www.templatemonster.com/blog/designing-colorblind-friendly-website/)
