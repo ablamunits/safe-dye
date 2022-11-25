@@ -1,6 +1,6 @@
 const colorBlind = require('color-blind');
 const colorConvert = require('color-convert');
-const DelataE = require('delta-e');
+const DeltaE = require('delta-e');
 
 function toProtanomaly(hex) {
 	return colorBlind.protanopia(hex);
@@ -25,7 +25,7 @@ function isDifferentColors(hex1, hex2) {
     const lab1 = hexToLab(hex1);
     const lab2 = hexToLab(hex2);
 
-    return DelataE.getDeltaE00(lab1, lab2) > 25;
+    return DeltaE.getDeltaE00(lab1, lab2) > similarityThreshold;
 }
 
 module.exports = {

@@ -14,7 +14,7 @@ Given two Hex RGB codes, we can create two simulated RGB codes. These would be t
 npm install safe-dye
 ```
 
-#### Useage
+#### Usage
 
 After requiring, use any of the available validation functions on a set of 2 colors in HEX, i.e `#00A55A`.
 The function will return `true` if the colors are distinguishable or `false` otherwise.
